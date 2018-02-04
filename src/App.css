@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#Rectangle-6-Copy-2 {
+  /*animation: blink infinite 3s ease-in-out;*/
+  opacity: 0.9;
+}
+
+ #Rectangle-6-Copy-3  {
+   animation: blink infinite 3s ease-in-out;
+ }
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    transform: scale(1) translate(180.000000, 179.000000) rotate(45.000000) translate(-80.000000, -180.000000);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2) translate(180.000000, 179.000000) rotate(45.000000) translate(-80.000000, -180.000000);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translate(180.000000, 179.000000) rotate(45.000000) translate(-80.000000, -180.000000);
+  }
+}
