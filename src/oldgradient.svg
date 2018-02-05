@@ -1,0 +1,16 @@
+<radialGradient cx="0%" cy="0%" fx="0%" fy="0%" r={radius1} id="radialGradient-1">
+    <stop stopColor="#FFD100" offset="0%"></stop>
+    <stop stopColor="#FFD100" stopOpacity="0" offset="100%"></stop>
+</radialGradient>
+<radialGradient cx="100%" cy="100%" fx="100%" fy="100%" r={radius2} id="radialGradient-2">
+    <stop stopColor="#003F4E" offset="0%"></stop>
+    <stop stopColor="#003F4E" stopOpacity="0" offset="100%"></stop>
+</radialGradient>
+<radialGradient cx="0%" cy="100%" fx="0%" fy="100%" r={radius3} id="radialGradient-3">
+    <stop stopColor="#00C3B0" offset="0%"></stop>
+    <stop stopColor="#008A7D" stopOpacity="0" offset="100%"></stop>
+</radialGradient>
+<radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r={radius4} id="radialGradient-4">
+    <stop stopColor="#84BD00" offset="0%"></stop>
+    <stop stopColor="#84BD00" stopOpacity="0" offset="100%"></stop>
+</radialGradient>
